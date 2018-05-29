@@ -1,11 +1,10 @@
 3.times do |topic|
   Topic.create!(
-    title: "Topic#{topic}"
-    )
+    title: "Topic #{topic}"
+  )
 end
 
 puts "3 Topics created"
-
 
 10.times do |blog|
   Blog.create!(
@@ -47,3 +46,15 @@ end
 end
 
 puts "9 portfolio items created"
+
+
+
+3.times do |technology|
+  Technology.create(
+    name: "Technology #{technology}",
+    portfolio_id: Portfolio.last.id
+
+  )
+end
+
+puts "3 technologies created"
