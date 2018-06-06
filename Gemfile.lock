@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/jaya999/jaya_view_tool
+  revision: a739db9f12c7948a2980ca8a3ca92bbbc1b7c7ab
+  specs:
+    jaya_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -217,6 +223,7 @@ DEPENDENCIES
   devise (~> 4.4, >= 4.4.3)
   execjs
   friendly_id (~> 5.1.0)
+  jaya_view_tool!
   jbuilder (~> 2.5)
   jquery-rails
   listen (>= 3.0.5, < 3.2)
