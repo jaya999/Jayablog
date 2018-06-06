@@ -36,4 +36,5 @@ group :development do
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-gem 'jaya_view_tool', git: 'https://github.com/jaya999/jaya_view_tool'
+gem 'jaya_view_tool', git: 'https://github.com/jaya999/jaya_view_tool' 
+gem 'petergate', '~> 1.8', '>= 1.8.1'
